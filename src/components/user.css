@@ -1,0 +1,123 @@
+/* Main container styling */
+.main-container {
+    padding: 20px;
+    background-color: #141414;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Main card styling */
+.main-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #ffffff;
+    color: #100a0a;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    width: 100%;
+    max-width: 600px;
+}
+
+/* Name and avatar styling */
+.name-card {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+/* Avatar styling */
+.name-card .MuiAvatar-root {
+    background-color: #3f51b5;
+    color: #020202;
+    width: 50px;
+    height: 50px;
+}
+
+/* Typography styling */
+.name-card .MuiTypography-h6 {
+    font-weight: bold;
+}
+
+.name-card .MuiTypography-colorTextSecondary {
+    color: #d8d1d1;
+}
+
+/* Dialog button styling */
+.MuiButton-containedPrimary {
+    background-color: #3f51b5;
+    color: #fff;
+}
+
+.MuiButton-containedPrimary:hover {
+    background-color: #5a6abf;
+}
+
+/* Icon button styling */
+.MuiIconButton-root {
+    color: #120e0e;
+}
+
+.MuiIconButton-root:hover {
+    color: #2a2828;
+}
+
+/* Dialog styling */
+.MuiDialog-paper {
+    background-color: #f0efef;
+    color: #0a0808;
+}
+
+.MuiDialogTitle-root {
+    font-weight: bold;
+    color: #3f51b5;
+}
+
+/* Text field styling */
+.MuiTextField-root {
+    margin-bottom: 15px;
+}
+
+.MuiInputBase-input {
+    color: #000000;
+}
+
+.MuiInputLabel-root {
+    color: #9e9e9e;
+}
+
+.MuiInputBase-root::before {
+    border-bottom: 1px solid #9e9e9e;
+}
+
+.MuiInputBase-root:hover:not(.Mui-disabled)::before {
+    border-bottom: 1px solid #ffffff;
+}
+
+/* Button group styling */
+.MuiDialogActions-root {
+    display: flex;
+    justify-content: flex-end;
+    padding: 16px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+    .main-card {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 15px;
+    }
+}
+
+.text-filed{
+    background-color: #286377;
+    border: 1px solid rgb(203, 203, 203);
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
